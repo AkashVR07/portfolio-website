@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash V R | Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <a href="#home" class="logo">Akash<span>.</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav id="nav">
+            <a href="#home" class="active">Home</a>
+            <a href="#internship">Internship</a>
+            <a href="#resume">Resume</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-overlay" id="nav-overlay"></div>
+    </header>
+
+    <!-- SCROLL TO TOP -->
+    <div class="scroll-top" id="scrollTop">
+        <i class='bx bx-up-arrow-alt'></i>
+    </div>
+
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+        </div>
+
+        <div class="home-detail">
+            <div class="badge">
+                <span class="dot"></span>
+                Available for Full-Time Roles
+            </div>
+            <h1>Hi, I'm <span class="name-accent">Akash&nbsp;V&nbsp;R</span></h1>
+            <h2>
+                I'm a
+                <span class="typewriter-wrap">
+                    <span class="typewriter" id="typewriter"></span>
+                </span>
+            </h2>
+            <p>I'm a Computer Science graduate (CGPA: 8.7) currently working as a Web Developer & Digital Marketing professional. Proficient in HTML, CSS, JavaScript, Python, SQL, Excel, Tableau, and Power BI, with a strong passion for 
+    transforming raw data into actionable insights and developing scalable digital solutions.</p>
+            <div class="btn-sci">
+                <a href="Downloads/downloadResume.pdf" class="btn" download>
+                    <i class='bx bx-download'></i> Download CV
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class='bx bx-envelope'></i> Get In Touch
+                </a>
+                <div class="sci">
+                    <a href="https://github.com/AkashVR07" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/akash-v-r-63a999292" target="_blank" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/a_kash_vr/" target="_blank" title="Instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.snapchat.com/add/akash_vr4561" target="_blank" title="Snapchat"><i class='bx bxl-snapchat'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-ring"></div>
+                <div class="img-ring-inner"></div>
+                <div class="img-item">
+                    <img src="images/home.jpg" alt="Akash V R">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- INTERNSHIP SECTION -->
+    <section class="Internship" id="internship">
+        <h2 class="heading">My <span>Internship</span></h2>
+        <div class="Internship-container">
+            <div class="Internship-box">
+                <div class="icon">
+                    <div class="icon-circle">
+                        <img src="images/data-analyst.jpg" alt="Data Analyst">
+                    </div>
+                    <a href="Downloads/Internship Certificate Data Analyst.png" class="cert-link" target="_blank">
+                        <i class='bx bx-file'></i> View Certificate
+                    </a>
+                </div>
+                <h3>Data Analyst</h3>
+                <p>Completed a 6-month internship focused on practical data analytics. Assisted in preparing, cleaning, and transforming datasets while creating dashboards and reports using Power BI, Tableau, and Excel. Applied Python and SQL to perform statistical analysis and deliver insights for business improvements.</p>
+            </div>
+
+            <div class="Internship-box">
+                <div class="icon">
+                    <div class="icon-circle">
+                        <img src="images/soft-skills.jpg" alt="Soft Skills">
+                    </div>
+                    <a href="Downloads/10 Seconds.jpg" class="cert-link" target="_blank">
+                        <i class='bx bx-file'></i> View Certificate
+                    </a>
+                </div>
+                <h3>Soft Skills & Microsoft Office</h3>
+                <p>Delivered structured training programs, improving learner satisfaction by 30%. Set clear expectations and milestones for trainees, increasing engagement by 20%. Fostered self-assessment and growth via continuous feedback loops.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- RESUME SECTION -->
+    <section class="resume" id="resume">
+        <h2 class="heading">My Professional <span>Background</span></h2>
+
+        <div class="resume-container">
+            <div class="resume-sidebar">
+                <p class="desc">Web Developer and Digital Marketing Professional skilled in developing real-time AI systems, interactive dashboards, and 
+    optimizing digital presence through modern marketing strategies. Passionate about combining technology, data, and user experience to create impactful solutions.</p>
+                <div class="resume-btns-row" id="resume-btns">
+                    <button class="resume-btn active" data-tab="education"><i class='bx bx-book'></i> Education</button>
+                    <button class="resume-btn" data-tab="experience"><i class='bx bx-briefcase'></i> Internship</button>
+                    <button class="resume-btn" data-tab="skills"><i class='bx bx-code-alt'></i> Skills</button>
+                    <button class="resume-btn" data-tab="certifications"><i class='bx bx-certification'></i> Certifications</button>
+                    <button class="resume-btn" data-tab="about"><i class='bx bx-user'></i> About Me</button>
+                </div>
+            </div>
+
+            <div class="resume-content">
+                
+
+                <!-- EDUCATION -->
+                <div class="resume-detail education active" id="tab-education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <div class="edu-grid">
+                        <div class="edu-card">
+                            <p class="year">2021 – 2025</p>
+                            <h3>Bachelor of Engineering in Computer Science</h3>
+                            <p>Rajeev Institute of Technology, Hassan</p>
+                            <p style="color:var(--accent2);margin-top:0.5rem;font-weight:600;">CGPA: 8.7</p>
+                        </div>
+                        <div class="edu-card">
+                            <p class="year">2019 – 2021</p>
+                            <h3>Pre-University Course (PUC)</h3>
+                            <p>Mahesh PU College, Udupi</p>
+                            <p style="color:var(--accent2);margin-top:0.5rem;font-weight:600;">86%</p>
+                        </div>
+                        <div class="edu-card">
+                            <p class="year">2018 – 2019</p>
+                            <h3>Secondary School (SSLC)</h3>
+                            <p>Govt. Junior College, Koppa</p>
+                            <p style="color:var(--accent2);margin-top:0.5rem;font-weight:600;">88.6%</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- EXPERIENCE -->
+                <div class="resume-detail experience" id="tab-experience">
+                    <h2 class="heading">My <span>Internship</span></h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <p class="year">April 2025 – October 2025</p>
+                            <h3>Data Analyst</h3>
+                            <p class="company">Ai Variant</p>
+                            <p>Completed a 6-month internship focused on practical data analytics. Assisted in preparing, cleaning, and transforming datasets while creating dashboards and reports using Power BI, Tableau, and Excel. Applied Python and SQL to perform statistical analysis and deliver insights for business improvements.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <p class="year">Oct 2022 – Nov 2022</p>
+                            <h3>Soft Skills & Microsoft Office</h3>
+                            <p class="company">10 Seconds</p>
+                            <p>Developed structured training programs improving learner satisfaction by 30%. Set clear expectations and milestones for trainees, increasing engagement by 20%. Fostered continuous feedback loops for self-assessment and growth.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SKILLS -->
+                <div class="resume-detail skills" id="tab-skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p style="font-size:1.5rem;color:var(--muted);margin-bottom:2.5rem;">Skilled in Web Development (HTML, CSS, JavaScript) and Digital Marketing (SEO, Google Analytics, Social Media Marketing).
+Also experienced in Data Analytics using Python, SQL, Excel, Tableau, and Power BI to drive data-informed decisions.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL">
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI">
+                            <span>Power BI</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://static.cdnlogo.com/logos/t/73/tableau-software.svg" alt="Tableau">
+                            <span>Tableau</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png" alt="Excel">
+                            <span>Excel</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter">
+                            <span>Jupyter</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                            <span>VS Code</span>
+                        </div>
+
+                        <!-- Web Development -->
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                            <span>HTML5</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                            <span>CSS3</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" alt="Responsive Design">
+                            <span>Responsive Design</span>
+                        </div>
+
+                        <!-- Digital Marketing -->
+                        <div class="skill-item">
+                            <img src="https://img.icons8.com/color/48/search.png" alt="SEO">
+                            <span>SEO</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <img src="https://img.icons8.com/color/48/google-analytics.png" alt="Google Analytics">
+                            <span>Google Analytics</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlesearchconsole.svg"alt="Social Media" 
+                            class="skill-icon social-icon">
+                            <span>Social Media</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <img src="https://img.icons8.com/color/48/content.png" alt="Content Marketing">
+                            <span>Content Marketing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CERTIFICATIONS -->
+                <div class="resume-detail certifications" id="tab-certifications">
+                    <h2 class="heading">My <span>Certifications</span></h2>
+                    <p style="font-size:1.5rem;color:var(--muted);margin-bottom:2.5rem;">Professional certifications that validate my expertise in data analytics and related technologies.</p>
+                    <div class="cert-grid">
+                        <div class="cert-item">
+                            <h4>Data Analyst Certification – EXCELR</h4>
+                            <a href="Downloads/Excelr - Data Analyst Certificate.pdf" target="_blank"><i class='bx bx-link-external'></i> View Certificate</a>
+                        </div>
+
+                        <div class="cert-item">
+                            <h4>Google Analytics Certification</h4>
+                            <a href="https://skillshop.credential.net/9cf4b5f5-9600-4588-99bb-b05fa1f7e815" target="_blank"><i class='bx bx-link-external'></i> View Certificate</a>
+                        </div>
+
+                        <div class="cert-item">
+                            <h4>Data Analysis with Python</h4>
+                            <a href="https://courses.cognitiveclass.ai/certificates/56d7f800189e40cab0cf49b951bd54b6" target="_blank"><i class='bx bx-link-external'></i> View Certificate</a>
+                        </div>
+
+                        <div class="cert-item">
+                            <h4>Deloitte Data Analytics Job Simulation</h4>
+                            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_68c67ffa81edf82e82bc891b_1757845412822_completion_certificate.pdf" target="_blank"><i class='bx bx-link-external'></i> View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ABOUT ME -->
+                <div class="resume-detail about" id="tab-about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p style="font-size:1.5rem;color:var(--muted);margin-bottom:2.5rem;">I'm an aspiring Data Analyst proficient in SQL, Python, Excel, Tableau, and Power BI. Passionate about using data to solve real-world problems and drive insights.</p>
+                    <div class="about-grid">
+                        <div class="about-item">
+                            <span class="label">Name</span>
+                            <span class="value">Akash V R</span>
+                        </div>
+                        <div class="about-item">
+                            <span class="label">Gender</span>
+                            <span class="value">Male</span>
+                        </div>
+                        <div class="about-item">
+                            <span class="label">Age</span>
+                            <span class="value">23 Years Old</span>
+                        </div>
+                        
+                        <div class="about-item">
+                            <span class="label">City</span>
+                            <span class="value">Bangalore</span>
+                        </div>
+                        <div class="about-item">
+                            <span class="label">Nationality</span>
+                            <span class="value">Indian</span>
+                        </div>
+                        <div class="about-item">
+                            <span class="label">Available</span>
+                            <span class="value">Full Time</span>
+                        </div>
+                        
+                        <div class="about-item">
+                            <span class="label">Email</span>
+                            <span class="value"><a href="mailto:akashvr91@gmail.com" style="color: var(--white-color); text-decoration: none;">akashvr91@gmail.com</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box" id="portfolio-details">
+
+                <div class="portfolio-detail active" data-index="0">
+                    <p class="numb">01</p>
+                    <h3>Multimodal AI: Real-Time Multi-Object Tracking with Intelligent Voice Feedback</h3>
+                    <p>Multimodal AI developer specializing in Computer Vision & Deep Learning. Building real-time object tracking systems with YOLOv8, 
+                    ByteTrack & voice feedback. Passionate about bridging vision and audio for assistive tech. Currently exploring LLMs & Edge AI.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">YOLOv8x</span>
+                        <span class="tech-tag">pyttsx3</span>
+                        <span class="tech-tag">CUDA acceleration</span>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://github.com/AkashVR07" target="_blank"><i class='bx bx-link-external'></i> Live Project</a>
+                        <a href="https://github.com/AkashVR07/Multimodal-AI_Real-Time-Multi-Object-Tracking-with-Intelligent-Voice-Feedback" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail" data-index="1">
+                    <p class="numb">02</p>
+                    <h3>Vehicle Parking Management System</h3>
+                    <p>Full-stack PHP MySQL parking management system. Features: role-based auth, vehicle entry/exit tracking, 
+                    automated parking numbers, category management, search functionality, responsive Bootstrap UI for admin & user dashboards.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">full-stack web application</span>
+                        <span class="tech-tag"> PHP/MySQL</span>
+                        <span class="tech-tag">CRUD operations</span>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://github.com/AkashVR07" target="_blank"><i class='bx bx-link-external'></i> Live Project</a>
+                        <a href="https://github.com/AkashVR07/Vehicle-Parking-Management-System-PHP-MySQL" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail" data-index="2">
+                    <p class="numb">03</p>
+                    <h3>Power BI Uber Trip Data Analysis</h3>
+                    <p>Developed an interactive Power BI dashboard to analyze Uber trip data, highlighting patterns in ride frequency, peak hours, and popular locations. Provided visual insights to support operational planning and service optimization.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">Data Analysis</span>
+                        <span class="tech-tag">DAX</span>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://github.com/AkashVR07" target="_blank"><i class='bx bx-link-external'></i> Live Project</a>
+                        <a href="https://github.com/AkashVR07/Power-BI-Uber_Trip_Data_Analysis" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail" data-index="3">
+                    <p class="numb">04</p>
+                    <h3>Weather App</h3>
+                    <p>Python-based app using WeatherAPI and pyttsx3 for live weather updates with audio narration and a clean KivyMD interface.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">WeatherAPI</span>
+                        <span class="tech-tag">KivyMD</span>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://github.com/AkashVR07" target="_blank"><i class='bx bx-link-external'></i> Live Project</a>
+                        <a href="https://github.com/AkashVR07/Weather-App" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Dots nav -->
+                <div class="project-nav" id="proj-dots"></div>
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide" id="img-slide">
+                        <div class="img-item"><img src="images/object.jpg" alt="Object Tracking"></div>
+                        <div class="img-item"><img src="images/vehicle.jpg" alt="Vehicle parking"></div>
+                        <div class="img-item"><img src="images/uber.png" alt="Uber Analysis"></div>
+                        <div class="img-item"><img src="images/weather.jpg" alt="Weather App"></div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button class="arrow-left disabled" id="arrow-left"><i class='bx bx-chevron-left'></i></button>
+                    <button class="arrow-right" id="arrow-right"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Get In <span>Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Let's Work <span style="color:var(--accent)">Together</span></h2>
+                <p class="desc">Ready to collaborate or have a question? I'm just a message away. Let's build something great together.</p>
+
+                <div class="contact-detail">
+                    <div class="icon-box"><i class='bx bxs-phone'></i></div>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>+91 7892146581</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="icon-box"><i class='bx bxs-envelope'></i></div>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p><a href="mailto:akashvr91@gmail.com" style="color: var(--white-color); text-decoration: none;">akashvr91@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="icon-box"><i class='bx bxs-map'></i></div>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>Kalidasa Road, Koppa(T), Chikkamagaluru(D)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-box">
+                <h2 class="heading">Contact <span>Me!</span></h2>
+
+                    <div class="field-box">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                        <input type="email" id="email" placeholder="Email Address" required>
+                        <input type="text" id="phone" placeholder="Phone Number">
+                        <input type="text" id="subject" placeholder="Email Subject" required>
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+
+                <button type="button" class="btn" onclick="sendToGmail()">
+                    <i class='bx bx-send'></i> Send Message
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+    <div class="footer-container">
+
+        <h2 class="footer-logo">Akash V R | Portfolio Website</h2>
+
+        <div class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#internship">Experience</a>
+            <a href="#resume">Education</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#resume">Skills</a>
+            <a href="#resume">Certifications</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+
+        <div class="footer-social">
+            <!-- <a href="mailto:akashvr91@gmail.com" title="Default Email"><i class='bx bx-envelope'></i></a> -->
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=akashvr91@gmail.com" target="_blank" title="Open in Gmail"><i class='bx bxl-gmail'></i></a>
+            <a href="https://github.com/AkashVR07" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/akash-v-r-63a999292" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/a_kash_vr/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.snapchat.com/add/akash_vr4561"><i class='bx bxl-snapchat'></i></a>
+        </div>
+
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
